@@ -50,10 +50,6 @@
         {{ $slot }}
     </main>
 
-   
-
-    
-
     <section class="flex flex-col justify-center items-center bg-primary py-16">
         <h3 class="font-display text-display text-3xl text-center text-white font-semibold antialiased">Let's Connect!</h3>
 
