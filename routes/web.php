@@ -14,8 +14,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
+Route::get('/root', function () {
     return view('welcome');
 });
 
-Route::get('/portfolio', [LandingPageController::class, 'index']);
+Route::get('/', [LandingPageController::class, 'index']);
