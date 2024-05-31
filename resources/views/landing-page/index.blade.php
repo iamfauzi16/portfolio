@@ -5,7 +5,7 @@
         </path>
     </svg>
 
-    <section class="flex flex-col justify-center container">
+    <section class="flex flex-col justify-center mx-4 lg:container">
         <h3 class="font-display text-3xl text-center text-display font-semibold antialiased">Experience</h3>
 
 
@@ -17,7 +17,7 @@
                     <h3 class="font-display font-bold text-md antialiased">{{ $index->title }}</h3>
                     <p class="text-gray-400 text-sm font-text font-light">{{ $index->company }}</p>
                     <div class="py-4">
-                        <p class="font-text">
+                        <p class="font-text text-gray-400 font-light">
                             {!! $index->description !!}
                         </p>
 
@@ -35,7 +35,7 @@
     </svg>
     <section class="flex flex-col justify-center py-16 bg-primary">
         <h3 class="font-display text-text text-3xl text-center text-display font-semibold antialiased">Portfolio</h3>
-        <div class="container">
+        <div class="mx-4 lg:container">
             <div class="grid grid-cols-1 gap-4 lg:grid-cols-2 mt-8">
                 @foreach ($portfolios as $index)
                     <div class="w-full bg-white border border-1 p-4 rounded-xl shadow-xl hover:border-tertiary transition"
@@ -43,7 +43,7 @@
                         <a href="{{ $index->url }}" target="_blank" rel="noopener noreferrer">
                             <p class="text-secondary font-text font-medium antialiased  ">{{ $index->tech_title }}</p>
                             <h3 class="font-display font-bold text-md antialiased">{{ $index->name_project }}</h3>
-                            <p class="text-gray-400 text-sm font-text font-light mt-4">
+                            <p class="text-gray-400 font-text font-light mt-4">
                                 {{ $index->description }}
                             </p>
                         </a>
@@ -61,7 +61,7 @@
         </path>
     </svg>
 
-    <section class="flex flex-col justify-center container py-16">
+    <section class="flex flex-col justify-center py-16 mx-4 lg:container">
         <h3 class="font-display text-display text-3xl text-center text-display font-semibold antialiased">Design</h3>
         <div class="grid grid-cols-1 gap-4 lg:grid-cols-2 mt-8">
             @foreach ($designs as $index)
@@ -69,9 +69,9 @@
                     data-aos="fade-up" data-aos-delay="200">
                     <a href="{{ $index->url }}" target="_blank" rel="noopener noreferrer">
                         <img src="{{ $index->url_img }}" alt="image-design-1" class="rounded-lg border">
-                        <p class="text-secondary font-text font-medium antialiased  ">{{ $index->tech_title }}</p>
+                        <p class="text-secondary font-text font-medium antialiased mt-4">{{ $index->tech_title }}</p>
                         <h3 class="font-display font-bold text-md antialiased">{{ $index->title }}</h3>
-                        <p class="text-gray-400 text-sm font-text font-light mt-4">
+                        <p class="text-gray-400  font-text font-light mt-4">
                             {{ $index->description }}
                         </p>
                     </a>
