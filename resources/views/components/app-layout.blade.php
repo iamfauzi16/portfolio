@@ -57,20 +57,17 @@
     <section class="flex flex-col justify-center items-center bg-primary py-16">
         <h3 class="font-display text-display text-3xl text-center text-white font-semibold antialiased">Let's Connect!</h3>
 
-        <div class="grid grid-cols-1 gap-4 lg:grid-cols-1 mt-8">
+        <div class="grid grid-cols-1 gap-4 mx-4 lg:grid-cols-1 mt-8">
             <div class="w-full bg-white border border-1 p-4 rounded-xl shadow-xl hover:border-tertiary transition"
                 data-aos="fade-up" data-aos-delay="200">
-                <a href="">
-                    <div class="flex flex-col items-center">
-                        <img src="im.png" alt="image-me" class="rounded-full w-24 h-24 mt-8 border" >
-                        <p class="text-secondary font-text font-medium antialiased  mt-4">Muhammad Fauzi</p>
-                        <h3 class="font-display font-bold text-md antialiased">Junior Technology Support | Web Enthusiast</h3>
-                        <p class="text-gray-400 text-sm font-text font-light mt-4">
-                            Waktu malam, ialah waktu produktifitas yang sangat menyenangkan!
-                        </p>
-                    </div>
-                   
-                </a>
+                <div class="flex flex-col justify-center items-center">
+                    <img src="im.png" alt="image-me" class="rounded-full w-24 h-24 mt-8 border" >
+                    <p class="text-secondary font-text font-medium antialiased  mt-4">Muhammad Fauzi</p>
+                    <h3 class="font-display font-bold text-md antialiased">Junior Technology Support | Web Enthusiast</h3>
+                    <p class="text-gray-400 text-sm font-text font-light mt-4">
+                        Waktu malam, ialah waktu produktifitas yang sangat menyenangkan!
+                    </p>
+                </div>
             </div>
         </div>
     </section>
